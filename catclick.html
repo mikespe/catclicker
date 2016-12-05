@@ -2,15 +2,30 @@
 <html>
 <head>
   <title>Cat clicker website</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
 <body>
   <nav>
-    <ul>
+    <ul id='catnav'>
     </ul>
   </nav>
-  <h1>Cat Click</h1>
+  <div id="catcontainer">
+    <h1>Cat Click</h1>
+    <h2 id='name'></h2>
+    <h2 id='count'></h2>
+    <img id='catpic' alt='cat' src=''>
+    <button id='button1' class='show'>Admin</button>
+    <div id='form1' class='hide'>
+      Name: <br>
+      <input type='text' name='catname'><br>
+      URL: <br>
+      <input type='text' name='caturl'><br>
+      Count: <br>
+      <input type='text' disabled name='catcount'><br>
+      <button id='button2'>Submit</button>
+      <button id='button3'>Cancel</button>
+    </div>
+  </div>
 <script src='app.js'></script>
 </body>
 </html>

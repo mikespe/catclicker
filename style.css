@@ -13,3 +13,11 @@ img {
 nav {
   position: fixed;
 }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
